@@ -1,0 +1,53 @@
+body {
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #FFFFFF;
+}
+
+.Header {
+    margin-top: 30px;
+    font-family: Manrope;
+    color: #171516;
+    margin-bottom: 50px;
+    font-size: 24px;
+}
+
+.op {
+    margin-top: 30px;
+    font-family: Manrope;
+    font-style: normal;
+    color: #171516;
+    font-size: 20px;
+}
+
+.link {
+    font-family: Manrope;
+    margin-top: 30px;
+    margin-bottom: 80px;
+    color: #171516;
+    font-size: 18px;
+}
+
+.opis {
+    margin-left: 25px;
+    font-size: 16px;
+}
+
+a {
+    text-decoration: none;
+    background-image: linear-gradient(currentColor, currentColor);
+    background-position: 10% 110%;
+    background-repeat: no-repeat;
+    background-size: 0% 3px;
+    transition: background-size .1s;
+    font-weight: 700;
+}
+
+a:hover {
+    background-size: 100% 3px;
+}
+
+a:visited {
+    color: #171516;
+  }
