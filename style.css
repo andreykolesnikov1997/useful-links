@@ -1,28 +1,33 @@
 body {
-    width: 1000px;
+    max-width: 1000px;
     margin-left: auto;
     margin-right: auto;
+    font-family: Manrope, sans-serif;
     background-color: #FFFFFF;
 }
 
-.Header {
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 30px;
+}
+
+h1 {
+    font-size: 50px;
+}
+.header {
     margin-top: 30px;
-    font-family: Manrope;
     color: #171516;
-    margin-bottom: 50px;
     font-size: 24px;
 }
 
 .op {
     margin-top: 30px;
-    font-family: Manrope;
-    font-style: normal;
     color: #171516;
     font-size: 20px;
 }
 
 .link {
-    font-family: Manrope;
     margin-top: 30px;
     margin-bottom: 80px;
     color: #171516;
@@ -50,4 +55,27 @@ a:hover {
 
 a:visited {
     color: #171516;
-  }
+}
+
+@media screen and (max-width: 600px) {
+    .container {
+        padding: 20px;
+    }
+
+    .header {
+        font-size: 20px;
+    }
+
+    .op {
+        font-size: 18px;
+    }
+
+    .link {
+        font-size: 16px;
+    }
+
+    .opis {
+        margin-left: 15px;
+        font-size: 14px;
+    }
+}
